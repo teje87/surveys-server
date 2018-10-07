@@ -4,7 +4,7 @@ const app = express();
 //ROUTES
 app.get('/', (req, res)=>{
     console.log('get request running')
-    res.send({hi: 'there'}) 
+    res.send({bye: 'goodbye'}) 
 });
 
 
