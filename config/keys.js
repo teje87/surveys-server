@@ -1,4 +1,4 @@
-if(PROCESS.env.NODE_ENV === "production"){
+if(process.env.NODE_ENV === "production"){
     //load production config file
     module.exports = require('./prod')
 }else{
